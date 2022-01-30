@@ -1,0 +1,493 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+body>* {
+    margin: 0 50px;
+}
+
+header>div {
+    display: flex;
+}
+
+header>div>* {
+    width: 50%;
+}
+
+p,
+article,
+input {
+    font-size: 1vw;
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header ul li {
+    width: 20%;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+div#intro>* {
+    padding-left: 10%;
+}
+
+div#intro>img {
+    padding-left: 0%;
+    border-radius: 2vh;
+    width: 100%;
+}
+
+div#intro h5 {
+    color: lightskyblue;
+    font-size: 1vw;
+}
+
+div#intro>h2 {
+    width: 25%;
+    font-size: 2vw;
+}
+
+div#intro-contact {
+    width: 20%;
+}
+
+div#intro-contact>h2 {
+    font-size: 2vw;
+}
+
+div#intro-contact p {
+    color: gray;
+    font-size: 0.7vw;
+}
+
+div#intro-contact input[type="email"] {
+    background-color: lightgray;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 0.5vw;
+    width: 80%;
+}
+
+div#intro-contact input[type="submit"] {
+    background-color: rgb(74, 165, 201);
+    color: white;
+    padding: 8px 8px;
+    border: none;
+    border-radius: 0.5vw;
+    margin-left: -4vw;
+    width: 20%;
+}
+
+div#services {
+    margin: 10vw 7vw;
+}
+
+div#services h3 {
+    font-size: 2vw;
+    width: 25%;
+}
+
+div#services-details {
+    display: flex;
+}
+
+div#services-details :nth-child(1) span {
+    background-color: rgb(0, 162, 255);
+    color: white;
+    padding: 1vw;
+    border-radius: 1vw;
+}
+
+div#services-details :nth-child(2) span {
+    background-color: rgb(0, 255, 149);
+    color: white;
+    padding: 1vw;
+    border-radius: 1vw;
+}
+
+div#services-details :nth-child(3) span {
+    background-color: rgb(243, 116, 84);
+    color: white;
+    padding: 1vw;
+    border-radius: 1vw;
+}
+
+div.services-details-item h4 {
+    font-size: 1.5vw;
+}
+
+div.services-details-item {
+    padding: 4vw;
+    margin: 2vw;
+}
+
+div.services-details-item:hover {
+    box-shadow: 0 0.5vw 1vw rgb(0 0 0 / 0.2);
+    border-radius: 2vw;
+    cursor: pointer;
+}
+
+.services-details-item button {
+    color: gray;
+    background-color: lightgray;
+    border: none;
+    padding: 1vw;
+    border-radius: 1vw;
+    font-size: 1vw;
+}
+
+.services-details-item button:hover {
+    color: white;
+    background-color: rgb(0, 162, 255);
+    border: none;
+    padding: 1vw;
+    border-radius: 1vw;
+    font-size: 1vw;
+    cursor: pointer;
+}
+
+div#designs {
+    margin: 10vw 7vw;
+}
+
+div#designs h3 {
+    font-size: 2vw;
+    width: 25%;
+}
+
+div#design-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+div#design-container> :nth-child(2n+1)>img {
+    margin-top: 10vw;
+}
+
+div.design-container-item img {
+    border-radius: 3vw;
+    width: 35vw;
+}
+
+div.design-container-item p {
+    color: gray;
+}
+
+div.design-container-item h4 {
+    margin-top: 0;
+    font-size: 1.5vw;
+}
+
+div#designs h6 {
+    float: right;
+    font-size: 1.5vw;
+    color: rgb(0, 162, 255);
+    margin-top: -5vw;
+}
+
+div#team {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 10vw 7vw;
+}
+
+div#team> :nth-child(1) {
+    margin: auto 0;
+}
+
+div#team article {
+    width: 60%;
+}
+
+div#team article h4 {
+    color: rgb(247, 72, 72);
+}
+
+div#team article h3 {
+    font-size: 2vw;
+    margin: 0;
+}
+
+div#team-photo {
+    display: flex;
+}
+
+div#team-photo>* {
+    padding: 0.25vw;
+}
+
+div#team-photo>*>img {
+    border-radius: 2vw;
+    width: 20vw;
+}
+
+div#team-photo>*>* {
+    padding: 0.5vw;
+}
+
+div#team-photo>*>*>img {
+    border-radius: 2vw;
+    width: 20vw;
+}
+
+div#team-photo> :nth-child(1) {
+    margin: auto 0;
+}
+
+div#vision {
+    margin: 10vw 7vw;
+}
+
+div#vision h3 {
+    font-size: 2vw;
+    width: 60%;
+}
+
+div#vision-person {
+    display: flex;
+}
+
+div#vision-person img {
+    width: 5vw;
+    border-radius: 1vw;
+}
+
+div#vision-details {
+    line-height: 0;
+    padding-left: 1.5vw;
+}
+
+div#vision-details h5 {
+    font-size: 1.2vw;
+}
+
+div#vision-details p {
+    color: gray;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 5% 10%;
+}
+
+footer>* {
+    width: 33%;
+}
+
+footer ul {
+    list-style-type: none;
+    line-height: 2vw;
+}
+
+footer input[type="email"] {
+    background-color: lightgray;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 0.5vw;
+    width: 80%;
+}
+
+footer input[type="submit"] {
+    background-color: rgb(74, 165, 201);
+    color: white;
+    padding: 8px 8px;
+    border: none;
+    border-radius: 0.5vw;
+    margin-left: -5.2vw;
+    width: 20%;
+}
+
+@media (max-width:600px) {
+    body>* {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    header ul {
+        display: none;
+    }
+    div#intro>h5 {
+        font-size: 0.7rem;
+        margin: 0;
+    }
+    div#intro>h2 {
+        font-size: 1.5rem;
+        width: 80%;
+        margin: 0.7rem 0;
+    }
+    div#intro-contact {
+        width: 100%;
+    }
+    div#intro-contact>h2 {
+        font-size: 1.5rem;
+        width: 50%;
+        margin: 0.7rem 0;
+    }
+    div#services {
+        margin: 0.7rem 0;
+        font-size: 1.5rem;
+        width: 80%;
+    }
+    div#services>h3 {
+        font-size: 1.5rem;
+        width: 60%;
+        margin: 3rem 2.3rem;
+    }
+    div#services-details {
+        margin: 0 1.5rem;
+        flex-direction: column;
+    }
+    .services-details-item button {
+        font-size: 0.7rem;
+        padding: 0.7rem;
+    }
+    .services-details-item button:hover {
+        font-size: 0.7rem;
+        padding: 0.7rem;
+    }
+    div.services-details-item {
+        width: 100%;
+    }
+    div.services-details-item h4 {
+        font-size: 1.4rem;
+    }
+    p {
+        font-size: 0.8rem;
+    }
+    div#intro-contact>article,
+    div#intro-contact>p,
+    div#intro-contact>input {
+        width: 75%;
+        font-size: 0.7rem;
+    }
+    div#intro-contact input[type="email"] {
+        /* background-color: lightgray;
+        padding: 10px 10px;
+        border: none;*/
+        border-radius: 2vw;
+        width: 60vw;
+    }
+    div#intro-contact input[type="submit"] {
+        /* background-color: rgb(74, 165, 201);
+        color: white;
+        padding: 8px 8px;
+        border: none; */
+        border-radius: 2vw;
+        margin-left: -11vw;
+        width: 10vw;
+    }
+    div#designs {
+        margin: 0;
+    }
+    div#designs h3 {
+        font-size: 1.5rem;
+        width: 60%;
+        margin: 3rem 2.3rem;
+    }
+    div#design-container {
+        display: block;
+    }
+    div#design-container>*>img {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    div#design-container> :nth-child(2n+1)>img {
+        margin-top: 0;
+    }
+    div.design-container-item>h4 {
+        font-size: 1rem;
+    }
+    div#designs h6 {
+        float: left;
+        font-size: 1rem;
+        margin: 1rem 0;
+    }
+    div#team {
+        grid-template-columns: 1fr;
+        margin: 0;
+    }
+    div#team article {
+        width: 80%;
+    }
+    div#team article h4 {
+        font-size: 1rem;
+    }
+    div#team article h3 {
+        font-size: 1.5rem;
+        margin: 0;
+    }
+    div#team-photo>*>img,
+    div#team-photo>*>*>img {
+        border-radius: 2vw;
+        width: 47vw;
+    }
+    div#vision {
+        margin: 0;
+    }
+    div#vision h3 {
+        font-size: 1.2rem;
+        margin: 1.5rem 0;
+        width: 100%;
+    }
+    div#vision-person img {
+        width: 5rem;
+        border-radius: 1rem;
+    }
+    div#vision-details h5 {
+        font-size: 1rem;
+    }
+    div#vision-details p {
+        font-size: 0.7rem;
+    }
+    div#vision-person {
+        margin-bottom: 5rem;
+    }
+    footer {
+        flex-direction: column;
+        padding-bottom: 5rem;
+    }
+    footer>* {
+        width: 90%;
+    }
+    footer ul {
+        list-style-type: none;
+        line-height: 2rem;
+    }
+    footer input[type="email"] {
+        /* padding: 10px 10px;
+        border: none; */
+        border-radius: 0.5rem;
+        width: 80%;
+        font-size: 1rem;
+    }
+    footer input[type="submit"] {
+        /* background-color: rgb(74, 165, 201);
+        color: white;
+        padding: 8px 8px;
+        border: none; */
+        border-radius: 0.5rem;
+        margin-left: -4.9rem;
+        width: 20%;
+        font-size: 1rem;
+    }
+    footer> :nth-child(2),
+    footer> :nth-child(3) {
+        margin-left: 2.4rem;
+    }
+}
